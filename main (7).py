@@ -14,9 +14,9 @@ class Worker:
         self.bonus = bonus
         self.name = name
         
-#Метод - выводит зп сотрудниказа год вместе с премией
-    def getSummofYearforWorker(self):
-        return f"Зарплата вместе с премией у сотрудника {self.name} состовляет {self.bonus + self.pay.getSummofYear}"
+# #Метод - выводит зп сотрудниказа год вместе с премией
+#     def getSummofYearforWorker(self):
+#         return f"Зарплата вместе с премией у сотрудника {self.name} состовляет {self.bonus + self.pay.getSummofYear}"
         
 # Объект - зарплата за месяц 
 salary_of_month = Salary(20000)
